@@ -6,7 +6,7 @@ ARG PROJECT_DIR=/home/ubuntu/dabadigo/dabadigo/django_test
 
 WORKDIR $PROJECT_DIR
 
-COPY requirements.txt .
+COPY requirement.txt .
 
 RUN pip3 install -r requirement.txt
 
